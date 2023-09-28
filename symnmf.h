@@ -1,0 +1,16 @@
+double distance(double* , double* , int );
+double similarity(double* , double* , int );
+double** get_similarity_matrix(double** , int , int );
+double** get_diag_deg_matrix(double** , int );
+double** negative_root_matrix(double**, int );
+double** matrixMultiplication(int , int , int , double** , double** );
+double** get_W(double** , double** , int );
+void update_H(double** , int , int , double** );
+int check_convergence(double** , double** ,int ,int );
+double** transpose(double** , int , int );
+double** create_matrix(int , int );
+void free_matrix(double** , int );
+void print_matrix(double** , int, int );
+void copy_matrix_inplace(double** , double** , int , int );
+void get_dimensions(FILE* , int* );
+void get_datapoints(FILE* , double** , int , int );
